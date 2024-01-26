@@ -21,7 +21,7 @@ const WrapperSeccion = styled.div`
       margin-bottom: 1em;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     > h3 {
       font-size: 1.2em;
       margin-top: 1.2em;
@@ -57,7 +57,7 @@ const Line = styled.div`
   border-top: 1px solid #cccccc;
   margin: 1.5em 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     margin: 0.8em 0;
   }
 `;
@@ -81,7 +81,7 @@ const WapperButton = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     justify-content: center;
     margin-top: 1.5em;
     > button {

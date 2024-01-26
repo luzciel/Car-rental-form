@@ -56,7 +56,7 @@ const Footer = styled.div`
   font-size: 0.8em;
   margin-top: 2em;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     align-items: center;
   }
 `;

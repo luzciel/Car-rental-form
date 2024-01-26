@@ -110,7 +110,7 @@ const ErrorInput = styled.span`
   font-size: 0.9em;
   margin-top: 0.5em;
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     font-size: 0.7em;
   }
 `;

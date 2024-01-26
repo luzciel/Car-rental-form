@@ -9,7 +9,7 @@ const Wapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2em 23em;
+  margin: 2em 20vw;
 
   > div {
     width: 100%;
@@ -25,7 +25,7 @@ const Wapper = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     margin: 2em 1em;
   }
 `;

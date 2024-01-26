@@ -12,7 +12,7 @@ const Line = styled.div`
   border-top: 1px solid #cccccc;
   margin: -5.4em 0 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     display: none;
   }
 `;
@@ -37,9 +37,8 @@ const HomeBanner = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     min-width: auto;
-    justify-content: space-between;
     margin: 0 2.5em;
 
     > h1 {
@@ -51,12 +50,16 @@ const HomeBanner = styled.div`
       width: 150px;
     }
   }
+
+  @media (max-width: 512px) {
+    justify-content: space-between;
+  }
 `;
 
 const HomeForm = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 64px 500px;
+  margin: 5rem 25vw;
 
   > div {
     h2 {
@@ -73,9 +76,7 @@ const HomeForm = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
-    margin: 2em 2.5em;
-
+  @media (max-width: 1200px) {
     > div {
       h2 {
         font-size: 1.4em;

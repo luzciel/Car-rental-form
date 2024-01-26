@@ -15,11 +15,11 @@ Web que registra los vehículos y lista en una tabla los 10 últimos registros
 - Clona este repositorio en tu máquina local.
 
 ```js
-git clone <URL_DEL_REPOSITO>
+git clone <URL_DEL_REPOSITORIO>
 ```
 
 ```js
-git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_PROYECTO>
 ```
 
 - Instalar dependencias: 
